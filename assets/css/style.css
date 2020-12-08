@@ -1,32 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap');
+
+/* ----------------------------------------------------------------------------Navigation Bar */
 .nav-bar {
     background-color: #879d7d;
     text-align: right;
     height: 75px;
+    padding: 25px 20px;
+}
+
+.nav-bar li {
+    display: inline-block; 
+    padding-left: 25px;  
 }
 
 .nav-bar a {
     color: white;
     text-transform: uppercase; 
     text-decoration: none;
-    font-size: 24px;
+    font-size: 25px;
+    font-weight: 200;
 }
+
+/* ----------------------------------------------------------------------------First Section Landing Page */
 
 .main-page {
     background-color: #EDDDAE;
+    padding-bottom: 30px;
 }
 
 .main-text, .main-picture {
     display: inline-block;
     background-color: #EDDDAE;
     text-align: center;
-    height: 600px;
+    /* height: 600px; */
 }
 
-.main-text {
-}
 
-.main-text > p {
+.main-text p {
     padding: 20px 25% 0px 25%;
+    font-family: 'Josefin Slab', serif;
 }
 
 .main-picture > img {
@@ -36,14 +48,37 @@
     margin: 0 auto;
 }
 
+/* ----------------------------------------------------------------------------Second Section Landing Page */
+
+.who-we-are {
+    background-color: #EDDDAE;
+}
+
+.trainer-cont h2,
+.trainer-cont p {
+    text-align: center;
+}
+
+.trainer-pic {
+    display: block;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+/* ----------------------------------------------------------------------------Footer */
+
 footer {
     background-color: #879d7d;
     text-align: right;
-    height: 75px;
-    
+    height: 75px;   
 }
 
 footer i {
- font-size: 25px;
- margin: 25px 0px;
+    font-size: 35px;
+    margin: 20px 0px;
+    padding-right: 20px;
+    text-decoration: none;
+    color: white;
 }
