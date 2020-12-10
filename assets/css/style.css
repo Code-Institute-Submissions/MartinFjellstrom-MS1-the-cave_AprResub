@@ -16,12 +16,27 @@ h2 {
   display: inline-block;
 }
 
+/* --------------------------------------------------------Colour */
+.bgc-main {
+    background-color: #879d7d;
+}
+
+/* --------------------------------------------------------Logo */
+
+.logo {
+    height: 100px;
+    width: 100px;
+}
+.logo-div > img {
+    margin-right: 0;
+}
+
 /* ----------------------------------------------------------------------------Navigation Bar */
 
 .nav-bar {
     background-color: #879d7d;
     text-align: right;
-    height: 75px;
+    height: 100px;
     padding: 25px 20px;
 }
 
