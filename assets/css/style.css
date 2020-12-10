@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 /* ----------------------------------------------------------------------------Navigation Bar */
 .nav-bar {
     background-color: #879d7d;
@@ -102,4 +107,48 @@ footer i {
     padding-right: 20px;
     text-decoration: none;
     color: white;
+}
+
+/* ----------------------------------------------------------------------------Map */
+
+.map-col {
+    min-height: 500px;
+}
+
+.gym-map {
+    display: block;
+    margin: 0 auto;
+    padding: 20px 0px;
+}
+
+.contact-info {
+    position: relative;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.address {
+    display: inline-block;
+    width: 50%;
+    padding: 0;
+}
+
+.opening-hours {
+    position: absolute;
+    display: inline-block;
+    width: 50%;
+    padding: 0;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+/* ----------------------------------------------------------------------------Contact Form */
+
+.contant-form {
+}
+
+form > input, form > select, form > button, form > textarea {
+    display: block;
+    margin: 0 auto;
+    line-height: 13px;
 }

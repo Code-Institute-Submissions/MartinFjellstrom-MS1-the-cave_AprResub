@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<title>The Cave Climbing Gym</title>
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col nav-bar">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="">Gallery</a>
+                    </li>
+                    <li>
+                        <a href="">Competition</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                </div>
+            </div>            
+        </div>
+    </header>
+
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-6 map-col">
+                    <!------------------------------------------- https://developers.google.com/maps/documentation/embed/get-started -->
+                   <iframe class="gym-map"
+                   width="600"
+                   height="450"
+                    frameborder="0" style="border:0"
+                    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAdFEnP_epB8RWCPgTYkxkpX2JcWSSTrek
+                        &q=57.688943,11.951648" allowfullscreen>
+                    </iframe>
+                    <div class="contact-info"> 
+                        <div class="address">
+                        <p>Adress Line 1</p>     
+                        <p>Adress Line 2</p> 
+                        <p>Phone</p> 
+                        <p>Email</p> 
+                        </div>
+                        <div class="opening-hours">
+                        <h4>Opening Hours</h4>
+                        </div> 
+                    </div>                 
+                </div>
+                <div class="col-sm-6 contant-form">
+                    <h2>Contact Us</h2>
+                    <form action="#contact-modal" method="GET">
+                        <input type="text" id="fullname" name="name" placeholder="Name" required>                        
+                        <input type="email" id="emailaddress" name="email" placeholder="Email" required>
+                        <label for="booking-message">Booking or Message</label>
+                        <select class="form-select" id="booking-message" aria-label="Select Booking Or Message" required>
+                            <option selected>Booking</option>
+                            <option value="2">Message</option>
+                        </select>
+                        <textarea name="contant" id="" cols="30" rows="10"></textarea>
+                        <input type="submit" value="send">                    
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+            <footer>
+            <div class="container-fluid">
+                <a href="https://www.facebook.com/" target="_blank">
+                    <i class="fab fa-facebook-square"></i>
+                </a>
+                <a href="https://twitter.com/" target="_blank">
+                    <i class="fab fa-twitter-square"></i>
+                </a>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <i class="fab fa-instagram-square"></i>
+                </a>
+            </div>
+        </footer>
+
+<!-- // latlong.net  -->
+    <!-- <script>
+        function initMap() {
+            var location = {lat: -25.363, lng: 131.044};
+            var map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 4, 
+                center: location
+            });
+        }
+    </script> -->
+        
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAdFEnP_epB8RWCPgTYkxkpX2JcWSSTrek&callback=initMap"
+    type="text/javascript"></script>
+    <script src="https://kit.fontawesome.com/12d272a545.js" crossorigin="anonymous"></script>  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
