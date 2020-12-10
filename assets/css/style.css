@@ -40,16 +40,20 @@ h2 {
 /* ----------------------------------------------------------------------------About Section Landing Page */
 
 .main-page {
-    background-color: #EDDDAE;
+    background-color: #d0e4c7;
     padding-bottom: 30px;
 }
 
 .main-text, .main-picture {
     display: inline-block;
-    background-color: #EDDDAE;
+    background-color: #d0e4c7;
     text-align: center;
 }
 
+.main-text h1 {
+    font-size: 50px;
+    margin-top: 20px;
+}
 
 .main-text p {
     padding: 20px 15% 0px 15%;
@@ -59,14 +63,14 @@ h2 {
 .main-picture > img {
     width: 80%;
     height: 80%;
-    padding-top: 50px;
-    margin: 0 auto;
+    margin: 50px auto;
+    border-radius: 10px;
 }
 
 /* ----------------------------------------------------------------------------Who We Are Section Landing Page */
 
 .who-we-are {
-    background-color: #EDDDAE;
+    background-color: #a8c59b;
     padding: 50px;
 }
 
@@ -86,7 +90,7 @@ h2 {
 /* ----------------------------------------------------------------------------Prices Section Landing Page */
 
 .prices {
-    background-color: #EDDDAE;
+    background-color: #d0e4c7;
 }
 
 .prices hr {
@@ -174,6 +178,6 @@ form > input, form > select, form > button, form > textarea {
     line-height: 13px;
 }
 
-@media (min-width: 576px) { 
+/* @media (min-width: 576px) { 
 
-}
+} */
