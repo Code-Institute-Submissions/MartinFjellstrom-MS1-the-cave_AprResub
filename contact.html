@@ -38,7 +38,7 @@
     <section>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-sm-6 map-col">
+                <div class="col-md-6 map-col">
                     <!------------------------------------------- https://developers.google.com/maps/documentation/embed/get-started -->
                    <iframe class="gym-map"
                    width="600"
@@ -56,10 +56,12 @@
                         </div>
                         <div class="opening-hours">
                         <h4>Opening Hours</h4>
+                        <p>Mon-Fri: 9.00-20.00</p>
+                        <p>Sat-Sun: 10.00-20-00</p>
                         </div> 
                     </div>                 
                 </div>
-                <div class="col-sm-6 contant-form">
+                <div class="col-md-6 contant-form">
                     <h2>Contact Us</h2>
                     <form action="#contact-modal" method="GET">
                         <input type="text" id="fullname" name="name" placeholder="Name" required>                        
@@ -78,32 +80,34 @@
     </section>
 
             <footer>
-            <div class="container-fluid">
-                <a href="https://www.facebook.com/" target="_blank">
-                    <i class="fab fa-facebook-square"></i>
-                </a>
-                <a href="https://twitter.com/" target="_blank">
-                    <i class="fab fa-twitter-square"></i>
-                </a>
-                <a href="https://www.instagram.com/" target="_blank">
-                    <i class="fab fa-instagram-square"></i>
-                </a>
+        <div class="container-fluid footer-cont">
+            <div class="row">
+                <div class="col-sm-4 address-footer inline-block">
+                    <p>Adress Line 1</p>     
+                    <p>Adress Line 2</p> 
+                    <p>Phone</p> 
+                    <p>Email</p> 
+                </div>
+                <div class="col-sm-4 opening-hours-footer inline-block">
+                    <h4>Opening Hours</h4>
+                    <p>Mon-Fri: 9.00-20.00</p>
+                    <p>Sat-Sun: 10.00-20-00</p>
+                </div>
+                <div class="col-sm-4 social-links-footer inline-block">         
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+                    <a href="https://twitter.com/" target="_blank">
+                        <i class="fab fa-twitter-square"></i>
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <i class="fab fa-instagram-square"></i>
+                    </a>
+                </div>
             </div>
-        </footer>
+        </div>
+    </footer>
 
-<!-- // latlong.net  -->
-    <!-- <script>
-        function initMap() {
-            var location = {lat: -25.363, lng: 131.044};
-            var map = new google.maps.Map(document.getElementById("map"), {
-                zoom: 4, 
-                center: location
-            });
-        }
-    </script> -->
-        
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAdFEnP_epB8RWCPgTYkxkpX2JcWSSTrek&callback=initMap"
-    type="text/javascript"></script>
     <script src="https://kit.fontawesome.com/12d272a545.js" crossorigin="anonymous"></script>  
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
