@@ -64,17 +64,17 @@ h2 {
 /* ----------------------------------------------------------------------------About Section Landing Page */
 
 .main-page {
-    padding-bottom: 30px;
-}
-
-.main-text, .main-picture {
-    display: inline-block;
-    text-align: center;
+    padding: 20px;
 }
 
 .main-text h1 {
+    text-align: center;
     font-size: 50px;
     margin-top: 20px;
+}
+
+.main-text h2 {
+    text-align: center;
 }
 
 .main-text p {
@@ -82,11 +82,10 @@ h2 {
     font-family: 'Josefin Slab', serif;
 }
 
-.main-picture > img {
-    width: 80%;
-    height: 80%;
-    margin: 50px auto;
-    border-radius: 10px;
+.w-100 {
+  width: 100% !important;
+  height: 50vh;
+  object-fit: cover;
 }
 
 /* ----------------------------------------------------------------------------Who We Are Section Landing Page */
