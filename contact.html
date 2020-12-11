@@ -14,7 +14,7 @@
 </head>
 
 <body>
-<header>
+    <header>
         <div class="container-fluid nav-bar bgc-nav">
             <ul>
                 <li>
@@ -38,45 +38,64 @@
     </header>
 
     <section>
-        <div class="container-fluid">
+        <div class="container-fluid bgc-sec1">
             <div class="row">
+                <div class="col-md-6 contact">
+                    <h2>Contact Us</h2>
+                    <form action="#contact-modal" method="GET" class="contact-form">
+                        <input type="text" id="fullname" name="name" placeholder="Full Name" class="form-control" required>
+                        <input type="email" id="emailaddress" name="email" placeholder="Email" class="form-control"
+                            required>
+                        <textarea name="contant" id="" cols="30" rows="5" class="form-control"></textarea>
+
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-outline-success" data-bs-toggle="modal"
+                            data-bs-target="#contactModal">
+                            Send!
+                        </button>
+                    </form>
+                    <!-- Modal -->
+                    <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="messageSent"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="messageSent">Thank you for your message!</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-md-6 map-col">
                     <!------------------------------------------- https://developers.google.com/maps/documentation/embed/get-started -->
-                   <iframe class="gym-map"
-                   width="600"
-                   height="450"
-                    frameborder="0" style="border:0"
-                    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAdFEnP_epB8RWCPgTYkxkpX2JcWSSTrek
+                    <iframe class="gym-map" width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAdFEnP_epB8RWCPgTYkxkpX2JcWSSTrek
                         &q=57.691288573661964,11.948914179751798" allowfullscreen>
                     </iframe>
-                    <div class="contact-info"> 
-                        <div class="address">
-                        <p>Adress Line 1</p>     
-                        <p>Adress Line 2</p> 
-                        <p>Phone</p> 
-                        <p>Email</p> 
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="address">
+                                <p>Adress Line 1</p>
+                                <p>Adress Line 2</p>
+                                <p>Phone</p>
+                                <p>Email</p>
+                            </div>
                         </div>
-                        <div class="opening-hours">
-                        <h4>Opening Hours</h4>
-                        <p>Mon-Fri: 9.00-20.00</p>
-                        <p>Sat-Sun: 10.00-20-00</p>
-                        </div> 
-                    </div>                 
+                        <div class="col-md-6">
+                            <div class="opening-hours">
+                                <h4>Opening Hours</h4>
+                                <p>Mon-Fri: 9.00-20.00</p>
+                                <p>Sat-Sun: 10.00-20-00</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-6 contant-form">
-                    <h2>Contact Us</h2>
-                    <form action="#contact-modal" method="GET">
-                        <input type="text" id="fullname" name="name" placeholder="Name" required>                        
-                        <input type="email" id="emailaddress" name="email" placeholder="Email" required>
-                        <label for="booking-message">Booking or Message</label>
-                        <select class="form-select" id="booking-message" aria-label="Select Booking Or Message" required>
-                            <option selected>Booking</option>
-                            <option value="2">Message</option>
-                        </select>
-                        <textarea name="contant" id="" cols="30" rows="10"></textarea>
-                        <input type="submit" value="send">                    
-                    </form>
-                </div>
+
             </div>
         </div>
     </section>
