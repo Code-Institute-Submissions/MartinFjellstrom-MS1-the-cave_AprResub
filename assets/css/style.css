@@ -123,6 +123,38 @@ h2 {
     border-bottom: 0px;
 }
 
+/* ----------------------------------------------------------------------------Competition Page */
+
+.about-comp {
+    text-align: center;
+}
+.info-comp {
+ background: #000;
+ color: #fff;
+}
+
+.rules-comp {
+ background-color: #fff;
+}
+
+.comp-dates {
+    text-align: center;
+}
+
+.comp-dates h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.comp-winners {
+    text-align: center;
+}
+
+.table-sm { 
+    width: 30% !important; 
+    display: inline;
+}
+
 /* ----------------------------------------------------------------------------Footer */
 
 footer {
@@ -192,7 +224,3 @@ footer a {
 .opening-hours {
     text-align: center;
 }
-
-/* @media (min-width: 576px) { 
-
-} */
