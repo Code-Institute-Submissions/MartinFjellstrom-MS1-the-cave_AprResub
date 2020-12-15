@@ -146,14 +146,33 @@ h2 {
     padding-bottom: 20px;
 }
 
+.prev-comp-btn {
+    padding-bottom: 20px;
+}
+
+.prev-comp-btn > .btn {
+    background-color: #a8c59b;
+    border: 1px outset #879d7d;
+    margin: 5px 20px;
+
+
+}
+
+.btn-check:focus+.btn, .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(135,157,125,.25);
+}
+
 .comp-winners {
     text-align: center;
 }
 
-.table-sm { 
-    width: 30% !important; 
-    display: inline;
+.comp-winners h2 {
+    padding-top: 20px; 
+    padding-bottom: 20px;
 }
+
+
 
 /* ----------------------------------------------------------------------------Footer */
 
