@@ -1,25 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-}
 
-/* --------------------------------------------------------Special paddings/margins/text */
-
-h1,
-h2 {
-  margin: 0;
-}
-
-.inline-block {
-  display: inline-block;
-}
 
 /* --------------------------------------------------------Colour */
 
 .bgc-nav {
-    background-color: #879d7d !important;
+    background-color: #879d7d;
 }
 
 .bgc-footer {
@@ -58,10 +44,6 @@ h2 {
     margin-right: 10px!important;
 }
 
-.navbar-toggler {
-    margin-right: 10px!important;
-}
-
 .navbar-toggler:focus {
     box-shadow: none;
 }
@@ -86,6 +68,15 @@ h2 {
   height: 50vh;
   object-fit: cover;
 }
+
+.main-picture {
+    display: inline-flex;
+}
+
+.carousel-cont {
+    margin: auto auto;
+}
+
 
 /* ----------------------------------------------------------------------------Who We Are Section Landing Page */
 
@@ -115,7 +106,16 @@ h2 {
 
 .prices-div h2 {
     text-align: center;
+    margin: 0;
 }
+
+.prices-div table {
+    height: 75%;
+    width: 80%;
+    margin: 15px auto;
+    padding: 0;
+}
+
 
 .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
     border-top: 0px;
@@ -126,14 +126,6 @@ h2 {
 
 .about-comp {
     text-align: center;
-}
-.info-comp {
- background: #000;
- color: #fff;
-}
-
-.rules-comp {
- background-color: #fff;
 }
 
 .comp-dates {
@@ -182,7 +174,7 @@ footer {
 
 footer i {
     font-size: 50px; 
-    padding: 0px 20px;
+    padding: 0px 15px;
     color: white;
 }
 
@@ -192,6 +184,7 @@ footer a {
 
 .social-links-footer {
     margin: auto;
+    padding: 0;
 }
 
 .address-footer,
