@@ -14,8 +14,8 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-spec bgc-nav">
-        <div class="container-fluid">
+    <nav class="navbar navbar-expand-sm navbar-spec bgc-nav">
+        <div class="container-fluid">    
             <button class="navbar-toggler ms-auto custom-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -36,14 +36,14 @@
                         <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                 </ul>
-
+               
             </div>
         </div>
     </nav>
     <section>
         <div class="container-fluid bgc-sec1">
-            <div class="row">
-                <div class="col-md-6 about-comp">
+           
+                <div class="about-comp">
                     <h1>Competitions</h1>
                     <div class="info-comp bgc-sec2">
                         <h2>Info</h2>
@@ -70,29 +70,41 @@
                     </div>
                     <div class="rules-comp bgc-sec2">
                         <h2>Rules</h2>
-                        <p><strong>Rope Competition</strong></p>
+                        <h5>Rope Competition</h5>
                         <p>
                             Each climber will do a total of 8 climbs and receive 100 points for completing a route.
                             Climbers are given a second attempt to complete routes. Additional points are given for
                             completing routes on the first attempt.
                         </p>
-                        <p><strong>Bouldering Competition</strong></p>
+                        <h5>Bouldering Competition</h5>
                         <p>
                             This competition consists of 15 boulders per level, with 2 levels of problems. Climbers
                             score points by topping problems, with more points awarded to harder problems and reaching
-                            bonus holds. S
+                            bonus holds.
                         </p>
                     </div>
                 </div>
-                <div class="col-md-6 comp-pic">
+                <div class="comp-date">
 
                     <div class="comp-dates">
                         <h2>Upcoming Comp</h2>
-                        <div class="">
-                            <p>dd/mm/yy dd/mm/yy</p>
-                            <p>dd/mm/yy dd/mm/yy</p>
-                            <p>dd/mm/yy dd/mm/yy</p>
-                            <p>dd/mm/yy dd/mm/yy</p>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <h4>Boulder Competition</h4>
+                                <ul>
+                                <li>02/04/2021</li>
+                                <li>02/10/2021</li>
+                                <li>02/04/2022</li>
+                                <li>02/10/2022</li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-6">
+                                <h4>Top Rope Competition</h4>
+                                <p>02/04/2021</p>
+                                <p>02/10/2021</p>
+                                <p>02/04/2022</p>
+                                <p>02/10/2022</p>
+                            </div>
                         </div>
                     </div>
                     <div class="comp-winners">
@@ -104,7 +116,7 @@
                                     <button class="btn " type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapse1" aria-expanded="false"
                                         aria-controls="collapseExample">
-                                        Winners of comp1
+                                        Boulder Competition 02/04/2020
                                     </button>
                                 </div>
                                 <div class="collapse prev-comp" id="collapse1">
@@ -112,7 +124,7 @@
                                         <thead>
                                             <tr>
                                                 <th scope="col">#</th>
-                                                <th scope="col">Winners</th>
+                                                <th scope="col">Climber</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -137,7 +149,7 @@
                                     <button class="btn" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapse2" aria-expanded="false"
                                         aria-controls="collapseExample">
-                                        Winners of comp2
+                                        Top Rope Competition 02/04/2020
                                     </button>
                                 </div>
                                 <div class="collapse prev-comp" id="collapse2">
@@ -145,7 +157,7 @@
                                         <thead>
                                             <tr>
                                                 <th scope="col">#</th>
-                                                <th scope="col">Winners</th>
+                                                <th scope="col">Climber</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -172,7 +184,7 @@
                                     <button class="btn" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapse3" aria-expanded="false"
                                         aria-controls="collapseExample">
-                                        Winners of comp3
+                                        Boulder Competition 02/10/2020
                                     </button>
                                 </div>
                                 <div class="collapse prev-comp" id="collapse3">
@@ -180,7 +192,7 @@
                                         <thead>
                                             <tr>
                                                 <th scope="col">#</th>
-                                                <th scope="col">Winners</th>
+                                                <th scope="col">Climber</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -205,7 +217,7 @@
                                     <button class="btn" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapse4" aria-expanded="false"
                                         aria-controls="collapseExample">
-                                        Winners of comp4
+                                        Top Rope Competition 02/10/2020
                                     </button>
                                 </div>
                                 <div class="collapse prev-comp" id="collapse4">
@@ -213,7 +225,7 @@
                                         <thead>
                                             <tr>
                                                 <th scope="col">#</th>
-                                                <th scope="col">Winners</th>
+                                                <th scope="col">Climber</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -237,18 +249,18 @@
                     </div>
 
                 </div>
-            </div>
+            
 
         </div>
     </section>
-    <footer>
+     <footer>
         <div class="container-fluid footer-cont bgc-footer">
             <div class="row">
                 <div class="col-sm-4 address-footer">
-                    <p>Adress Line 1</p>
-                    <p>Adress Line 2</p>
-                    <p>Phone</p>
-                    <p>Email</p>
+                    <p>Rosengatan 13</p>
+                    <p>413 10 Gothenburg</p>
+                    <p>050-777-666</p>
+                    <p>Thecave@gmail.com</p>
                 </div>
                 <div class="col-sm-4 opening-hours-footer">
                     <h4>Opening Hours</h4>
@@ -257,13 +269,13 @@
                 </div>
                 <div class="col-sm-4 social-links-footer">
                     <a href="https://www.facebook.com/" target="_blank">
-                        <i class="fab fa-facebook-square"></i>
+                        <i class="fab fa-facebook-square facebook"></i>
                     </a>
                     <a href="https://twitter.com/" target="_blank">
-                        <i class="fab fa-twitter-square"></i>
+                        <i class="fab fa-twitter-square twitter"></i>
                     </a>
                     <a href="https://www.instagram.com/" target="_blank">
-                        <i class="fab fa-instagram-square"></i>
+                        <i class="fab fa-instagram-square instagram"></i>
                     </a>
                 </div>
             </div>

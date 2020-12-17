@@ -1,24 +1,16 @@
 /* --------------------------------------------------------Imported Fonts */
 
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Jura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tillana&family=Jura:wght@300;700&family=Eczar&display=swap');
 
-/* --------------------------------------------------------Base styles */
+/* --------------------------------------------------------Font styles */
 
-.nav-link {
-    font-family: "jura", serif;
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "eczar", serif;
 }
 
-p {
-    font-family: 'indie flower', serif;
-}
 
-h1, h2 {
-    font-family: "jura", serif;
-}
-
-table {
-    font-family: "jura", serif;
-}
 
 /* --------------------------------------------------------Colour */
 
@@ -58,8 +50,9 @@ table {
 }
 
 .nav-link {
-    padding-left: 5vw !important;
-    padding-right: 5vw !important;
+    font-family: "jura", serif;
+    padding-left: 2vw !important;
+    padding-right: 2vw !important;
 }
 
 .navbar-collapse a:hover {
@@ -87,6 +80,7 @@ table {
 
 .main-text p {
     padding: 20px 15% 0px 15%;
+    font-family: 'tillana', serif;
 }
 
 .w-100 {
@@ -107,7 +101,7 @@ table {
 /* ----------------------------------------------------------------------------Who We Are Section Landing Page */
 
 .who-we-are {
-    padding: 35px;
+    padding: 25px;
 }
 
 .trainer-cont h2,
@@ -115,10 +109,15 @@ table {
     text-align: center;
 }
 
+.trainer-cont p {
+font-family: 'tillana', serif;
+}
+
 .trainer-pic {
     display: block;
     height: 100px;
     width: 100px;
+    padding: 10px;
     border-radius: 50%;
     margin: 0 auto;
     transition-duration: 350ms;
@@ -131,12 +130,13 @@ table {
 
 /* ----------------------------------------------------------------------------Prices Section Landing Page */
 
-.prices-div > h2 {
+.prices-div h2 {
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-.prices-div h2 {
+.prices-div h2, 
+.prices-div h1 {
     text-align: center;
     margin: 0;
 }
@@ -149,25 +149,56 @@ table {
     font-family: "jura", serif;
 }
 
+.price-tables {
+    box-shadow: -10px -10px -10px -10px blue; 
+}
+
 
 .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
     border-top: 0px;
     border-bottom: 0px;
 }
 
+/* ----------------------------------------------------------------------------Courses Page */
+
+.courses-main {
+    text-align: center;
+    background-color: #d0e4c7;
+    color: black;
+}
+
+.course-info {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center; 
+}
+
+.course-info h1 {
+    Padding-top: 30px;
+    padding-bottom: 20px;
+}
+/* .course-info p,
+.course-info h1 {
+    
+} */
+
 /* ----------------------------------------------------------------------------Competition Page */
 
 .about-comp {
     text-align: center;
+    width: 50%;
+    margin: 0 auto;
 }
 
 .info-comp {
     padding: 20px;
     margin-bottom: 30px;
+    
 }
 
 .comp-dates {
     text-align: center;
+    width: 50%;
 }
 
 .comp-dates h2 {
@@ -291,7 +322,7 @@ footer a {
 /* ----------------------------------------------------------------------------Media Queries */
 
 
-@media (max-width: 992px) {
+@media (max-width: 576px) {
     .nav-link {
     padding-left: 1rem !important;
     padding-right: 1rem !important;
