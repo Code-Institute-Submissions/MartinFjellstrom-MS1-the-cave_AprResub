@@ -86,7 +86,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .main-text {
     text-align: center;
-    width: 50%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -142,6 +142,10 @@ font-family: 'tillana', serif;
 
 /* ----------------------------------------------------------------------------Prices Section Landing Page */
 
+.prices-div {
+    padding-bottom: 20px;
+}
+
 .prices-div h2 {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -182,7 +186,7 @@ font-family: 'tillana', serif;
 }
 
 .course-info {
-    width: 50%;
+    width: 70%;
     margin: 0 auto;
     text-align: center; 
 }
@@ -215,7 +219,7 @@ h1 {
 
 .about-comp {
     text-align: center;
-    width: 50%;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -227,7 +231,7 @@ h1 {
 
 .comp-dates {
     text-align: center;
-    width: 50%;
+    width: 70%;
     margin: auto auto;
 }
 
@@ -237,7 +241,7 @@ h1 {
 }
 
 .prev-comp {
-    width: 50%;
+    width: 70%;
     margin: auto;
 }
 
@@ -359,19 +363,42 @@ footer a {
 
 
 @media (max-width: 576px) {
+    
     .nav-link {
     padding-left: 1rem !important;
     padding-right: 1rem !important;
     text-align: right;
-}
-    .main-text {
-        width: 100%;
     }
+
+    .main-text {
+    width: 100%;
+    }
+
+   .course-info {
+    width: 85%;
+    }
+
+    .about-comp {
+    width: 85%;
+    }
+
+    .comp-dates {
+    width: 85%;
+    }
+
+    .prev-comp {
+    width: 85%;
+}
 }
 
 @media (max-width: 830px) {
+    
     .navbar-collapse a {
         font-size: 16px;
-}
+    }
+
+    .main-text p {
+    padding: 20px 5% 0px 5%;
+    }   
 }
 
