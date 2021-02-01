@@ -2,6 +2,16 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Tillana&family=Jura:wght@300;700&family=Eczar&display=swap');
 
+
+
+.container-fluid {
+    padding: 0;
+}
+
+.row {
+    margin: 0 auto;
+}
+
 /* --------------------------------------------------------Font styles */
 
 
@@ -76,6 +86,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .main-text {
     text-align: center;
+    width: 50%;
+    margin: 0 auto;
 }
 
 .main-text p {
@@ -166,6 +178,7 @@ font-family: 'tillana', serif;
     background-color: #d0e4c7;
     color: black;
     min-height: 85vh;
+    padding-bottom: 20px;
 }
 
 .course-info {
@@ -174,7 +187,7 @@ font-family: 'tillana', serif;
     text-align: center; 
 }
 
-.course-info h1 {
+h1 {
     Padding-top: 30px;
     padding-bottom: 20px;
 }
@@ -206,7 +219,7 @@ font-family: 'tillana', serif;
     margin: 0 auto;
 }
 
-.info-comp {
+.info-comp, .rules-comp {
     padding: 20px;
     margin-bottom: 30px;
     
@@ -215,11 +228,17 @@ font-family: 'tillana', serif;
 .comp-dates {
     text-align: center;
     width: 50%;
+    margin: auto auto;
 }
 
 .comp-dates h2 {
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.prev-comp {
+    width: 50%;
+    margin: auto;
 }
 
 .prev-comp-btn {
@@ -252,7 +271,8 @@ font-family: 'tillana', serif;
 
 /* ----------------------------------------------------------------------------Footer */
 
-footer {
+footer div {
+    padding: 0;
     min-height: 15vh;  
     text-align: center; 
     font-family: "jura", serif;
@@ -343,6 +363,15 @@ footer a {
     padding-left: 1rem !important;
     padding-right: 1rem !important;
     text-align: right;
+}
+    .main-text {
+        width: 100%;
+    }
+}
+
+@media (max-width: 830px) {
+    .navbar-collapse a {
+        font-size: 16px;
 }
 }
 
