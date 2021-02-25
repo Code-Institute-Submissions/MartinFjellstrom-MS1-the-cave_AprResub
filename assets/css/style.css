@@ -2,6 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Tillana&family=Jura:wght@300;700&family=Eczar&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
 
 
 
@@ -18,7 +21,7 @@
 
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "eczar", serif;
+    font-family: "black ops one", serif;
 }
 
 
@@ -33,12 +36,8 @@ h1, h2, h3, h4, h5, h6 {
     background-color: rgb(32, 42, 37);
 }
 
-.bgc-sec1 {
-    background-color: #ffffff;
-}
-
-.bgc-sec2 {
-    background-color: #ffffff;
+.price-section-colour {
+    background-color: rgba(184, 12, 9, 0.75);
 }
 
 
@@ -97,9 +96,9 @@ h1, h2, h3, h4, h5, h6 {
     position: absolute;
     bottom: 10%;
     right: 5%;
-    color: #202a25;
-    font-size: 4rem;
-    font-family: "oi", serif;
+    color: #ffffff;
+    font-size: 6rem;
+    font-family: "black ops one", serif;
 }
 
 /* ----------------------------------------------------------------------------About Section Landing Page */
@@ -116,7 +115,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .main-text p {
     padding: 20px 15% 0px 15%;
-    font-family: 'tillana', serif;
+    font-family: 'jura', serif;
 }
 
 .w-100 {
@@ -134,11 +133,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .who-we-are {
     padding: 25px;
+    
 }
 
 .card-trainer {
     margin: auto;
-    border-radius: 20%;
+    border-radius: 5px;
+    min-height: 370px;
 }
 
 .trainer-cont h2,
@@ -147,7 +148,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .trainer-cont p {
-font-family: 'tillana', serif;
+font-family: 'jura', serif;
 }
 
 .trainer-pic {
@@ -167,8 +168,27 @@ font-family: 'tillana', serif;
 
 /* ----------------------------------------------------------------------------Prices Section Landing Page */
 
+
+
+.price-head-div {
+    padding-bottom: 50px;
+}
+
+.prices-main {
+    text-align: center;
+    background-color: #fff;
+    height: 100px;
+    width: 300px;
+    margin: auto auto;
+}
+
+.prices-main h1 {
+    color: rgba(184, 12, 9, 0.75);
+}
+
 .prices-div {
-    padding-bottom: 20px;
+    padding-bottom: 60px;
+    padding-top: 60px;
 }
 
 .prices-div h2 {
@@ -190,10 +210,6 @@ font-family: 'tillana', serif;
     font-family: "jura", serif;
 }
 
-.price-tables {
-    box-shadow: -10px -10px -10px -10px blue; 
-}
-
 
 .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
     border-top: 0px;
@@ -201,10 +217,10 @@ font-family: 'tillana', serif;
 }
 
 .card-price {
-    border-radius: 45%;
-    height: 200px;
-    border-color: transparent;
-}
+    height: 20rem;
+    width: 20rem;
+    margin: auto auto;
+} 
 
 /* ----------------------------------------------------------------------------Courses Page */
 
