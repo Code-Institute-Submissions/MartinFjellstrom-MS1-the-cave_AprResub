@@ -280,6 +280,26 @@ font-family: 'jura', serif;
     opacity: 1;
 }
 
+.course-btn {
+    font-size: 1.5rem;
+    font-weight: 550;
+    color: white;
+    background-color: rgb(254,87,57);
+}
+
+.course-modal-content {
+    color: black;
+}
+
+.course-modal-header, 
+.course-modal-footer {
+    border: 0px !important;
+}
+
+.left {
+    text-align: left;
+}
+
 h1 {
     Padding-top: 30px;
     padding-bottom: 20px;

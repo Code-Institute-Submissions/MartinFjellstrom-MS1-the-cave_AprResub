@@ -120,11 +120,7 @@
 
                 <div class="lead-course">
                     <div class="row">
-                        <div class="col-sm-6">
-                            <img src="assets/images/harnois_071516_0532_how_to_choose_quickdraws_lg.jpg"
-                                alt="PicOfQuickdraws" class="course-pic">
-                        </div>
-                        <div class="col-sm-6 course-main-text">
+                        <div class="col-sm-6 course-main-text order-sm-1">
                             <h3>Lead</h3>
                             <p>
                                 To be able to take part in our <strong>Lead</strong> course, you need o have a Green
@@ -141,6 +137,10 @@
                                 which
                                 will allow you to climb lead walls in most climbing facilities in Sweden.
                             </p>
+                        </div>
+                        <div class="col-sm-6 lead-pic order-sm-7">
+                            <img src="assets/images/harnois_071516_0532_how_to_choose_quickdraws_lg.jpg"
+                                alt="PicOfQuickdraws" class="course-pic">
                         </div>
                     </div>
                 </div>
@@ -159,7 +159,7 @@
                 <hr class="course-line"><br>
 
                 <div class="technique-course">
-                    
+
                     <div class="row">
                         <div class="col-sm-6 course-main-text">
                             <h3>Technique</h3>
@@ -212,11 +212,52 @@
                     </div>
                 </div>
                 <br>
-                <hr class="course-line"><br><br>
+                <hr class="course-line"><br>
             </div>
 
+            <!-- Button trigger modal -->
+            <button type="button" class="btn course-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Sign Up!
+            </button>
 
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content course-modal-content">
+                        <div class="modal-header course-modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Sign up for a course</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body course-modal-body">
+                            <form>
+                                <div class="mb-3 left">
+                                <label for="name" class="">Name</label>
+                                <input type="text"  class="form-control" id="name">
+                                </div>
+                                <div class="mb-3 left">
+                                <label for="email" class="">Email Address</label>
+                                <input type="email"  class="form-control" id="email">
+                                </div>
+                                <div class="mb-3">
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Select a course</option>
+                                    <option value="1">Top rope 100€</option>
+                                    <option value="2">Lead 80€</option>
+                                    <option value="3">Technique 100€</option>
+                                </select>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer course-modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+            <br>
+            <br>
             <p>
                 <small>To participate in our courses you need to be 15 years old and if you re under 18 we will need
                     your parents signature.</small>
