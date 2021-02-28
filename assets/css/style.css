@@ -263,6 +263,17 @@ font-family: 'jura', serif;
     text-align: center; 
 }
 
+.course-main-text {
+    margin: auto;
+}
+
+.course-pic {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    padding-bottom: 40px;
+    max-height: 400px;
+}
 
 .course-line {
     border: 1px solid rgb(254,87,57);
