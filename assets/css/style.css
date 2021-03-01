@@ -1,9 +1,8 @@
 /* --------------------------------------------------------Imported Fonts */
 
-@import url('https://fonts.googleapis.com/css2?family=Tillana&family=Jura:wght@300;700&family=Eczar&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
 
 
 
@@ -109,6 +108,7 @@ h1, h2, h3, h6 {
     text-align: center;
     width: 80%;
     margin: 0 auto;
+    padding-bottom: 50px;
 }
 
 .main-text h1 {
@@ -206,8 +206,7 @@ font-family: 'jura', serif;
 }
 
 .prices-main h1 {
-    color: rgb(254,87,57)
-;
+    color: rgb(254,87,57);
 }
 
 .prices-div {
@@ -315,6 +314,11 @@ h1 {
 
 /* ----------------------------------------------------------------------------Competition Page */
 
+.comp-main {
+    background-color: rgb(89, 131, 129);
+    color: white;
+}
+
 .about-comp {
     text-align: center;
     width: 70%;
@@ -348,10 +352,10 @@ h1 {
 }
 
 .prev-comp-btn > .btn {
-    background-color: #a8c59b;
-    border: 1px outset #879d7d;
+    background-color: rgb(254,87,57);
+    border: 1px outset darkgrey;
     margin: 5px 20px;
-
+    color: white;
 
 }
 
