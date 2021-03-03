@@ -21,10 +21,14 @@
     text-align: left;
 }
 
-/* --------------------------------------------------------General Padding */
+/* --------------------------------------------------------General */
 
 .container-fluid {
     padding: 0;
+}
+
+.row {
+    --bs-gutter-x: 0px;
 }
 
 h1 {
@@ -342,6 +346,64 @@ font-family: 'jura', serif;
     padding-bottom: 20px;
 }
 
+/* ----------------------------------------------------------------------------Contact Page */
+
+.contact-page {
+    background-color: rgb(89, 131, 129);
+    margin: auto auto;
+    font-family: 'jura', serif;
+}
+
+.contact-heading {
+    color: rgb(89, 131, 129);
+}
+
+.form-container {
+    background-color: rgb(254,87,57);
+    width: 60%;
+    padding: 20px;
+    margin: auto;
+    border-radius: 8px;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact h2 {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.contact-form > input, 
+.contact-form > button, 
+.contact-form > textarea {
+    display: block;
+    margin: 0 auto;
+}
+
+.contact-btn {
+    color: white;
+    background-color: rgb(89, 131, 129);
+}
+
+.contact-form {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* ----------------------------------------------------------------------------Map */
+
+.map-col {
+    min-height: 500px;
+    margin: auto auto;
+}
+
+.gym-map {
+    display: block;
+    margin: auto auto;
+}
+
 /* ----------------------------------------------------------------------------Footer */
 
 footer div {
@@ -387,41 +449,6 @@ footer a {
 
 .footer-cont {
     background-color: rgb(32, 42, 37);
-}
-
-/* ----------------------------------------------------------------------------Map */
-
-.map-col {
-    min-height: 500px;
-}
-
-.gym-map {
-    display: block;
-    margin: 0 auto;
-    padding: 20px 0px;
-}
-
-/* ----------------------------------------------------------------------------Contact Form */
-
-.contact {
-    text-align: center;
-}
-
-.contact h2 {
-    padding-top: 20px;
-    padding-bottom: 30px;
-}
-
-.contact-form > input, 
-.contact-form > button, 
-.contact-form > textarea {
-    display: block;
-    margin: 0 auto;
-}
-
-.contact-form {
-    width: 50%;
-    margin: 0 auto;
 }
 
 /* ----------------------------------------------------------------------------Media Queries */
