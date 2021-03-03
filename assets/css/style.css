@@ -3,43 +3,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
 
+/* --------------------------------------------------------Reuseable Styles */
 
+.boxed-heading-container {
+    padding-bottom: 50px;
+}
 
+.boxed-heading {
+    text-align: center;
+    background-color: #fff;
+    height: 100px;
+    width: 300px;
+    margin: auto auto;
+}
 
+.left {
+    text-align: left;
+}
+
+/* --------------------------------------------------------General Padding */
 
 .container-fluid {
     padding: 0;
 }
 
-.row {
-    margin: 0 auto;
+h1 {
+    Padding-top: 30px;
+    padding-bottom: 20px;
 }
 
 /* --------------------------------------------------------Font styles */
 
-
-
 h1, h2, h3, h6 {
     font-family: "black ops one", serif;
 }
-
-
-
-/* --------------------------------------------------------Colour */
-
-.bgc-nav {
-    background-color: rgb(32, 42, 37);
-}
-
-.bgc-footer {
-    background-color: rgb(32, 42, 37);
-}
-
-.price-section-colour {
-    background-color: rgb(254,87,57)
-;
-}
-
 
 /* --------------------------------------------------------Logo */
 
@@ -50,6 +47,9 @@ h1, h2, h3, h6 {
 
 /* ----------------------------------------------------------------------------Navigation Bar */
 
+.navbar-spec {
+    background-color: rgb(32, 42, 37);
+}
 
 .navbar-collapse a {
     color: white;
@@ -103,7 +103,6 @@ h1, h2, h3, h6 {
 
 /* ----------------------------------------------------------------------------About Section Landing Page */
 
-
 .main-text {
     text-align: center;
     width: 80%;
@@ -118,7 +117,6 @@ h1, h2, h3, h6 {
 .main-text p {
     font-family: 'jura', serif;
 }
-
 
 .w-100 {
   height: 50vh;
@@ -135,7 +133,6 @@ h1, h2, h3, h6 {
     opacity: 0;
 }
 
-
 /* ----------------------------------------------------------------------------Who We Are Section Landing Page */
 
 .who-we-are {
@@ -143,19 +140,7 @@ h1, h2, h3, h6 {
     background-color: rgb(89, 131, 129);
 }
 
-.trainers-head-div {
-    padding-bottom: 50px;
-}
-
-.trainers-main {
-    text-align: center;
-    background-color: #fff;
-    height: 100px;
-    width: 300px;
-    margin: auto auto;
-}
-
-.trainers-main h1 {
+.team-heading {
     color: rgba(89, 131, 129, 1);
 }
 
@@ -191,25 +176,12 @@ font-family: 'jura', serif;
 
 /* ----------------------------------------------------------------------------Prices Section Landing Page */
 
-
-
-.price-head-div {
-    padding-bottom: 50px;
-}
-
-.prices-main {
-    text-align: center;
-    background-color: #fff;
-    height: 100px;
-    width: 300px;
-    margin: auto auto;
-}
-
-.prices-main h1 {
+.price-heading {
     color: rgb(254,87,57);
 }
 
 .prices-div {
+    background-color: rgb(254,87,57);
     padding-bottom: 60px;
     padding-top: 60px;
 }
@@ -233,7 +205,6 @@ font-family: 'jura', serif;
     font-family: "jura", serif;
 }
 
-
 .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
     border-top: 0px;
     border-bottom: 0px;
@@ -247,7 +218,7 @@ font-family: 'jura', serif;
 
 /* ----------------------------------------------------------------------------Courses Page */
 
-.courses-main {
+.courses-page {
     text-align: center;
     background-color: rgb(89, 131, 129);
     color: white;
@@ -266,6 +237,10 @@ font-family: 'jura', serif;
     margin: auto;
 }
 
+.course-heading {
+    color: rgba(89, 131, 129, 1);
+}
+
 .course-pic {
     height: 100%;
     width: 100%;
@@ -281,7 +256,7 @@ font-family: 'jura', serif;
 
 .course-btn {
     font-size: 1.5rem;
-    font-weight: 550;
+    font-weight: 500;
     color: white;
     background-color: rgb(254,87,57);
 }
@@ -295,28 +270,22 @@ font-family: 'jura', serif;
     border: 0px !important;
 }
 
-.left {
-    text-align: left;
-}
-
-h1 {
-    Padding-top: 30px;
-    padding-bottom: 20px;
-}
-
 .course-info {
     margin: 0 auto;
     padding: 20px;
     background-color: rgba(0,0,0,.15)
 }
 
-
-
 /* ----------------------------------------------------------------------------Competition Page */
 
 .comp-main {
     background-color: rgb(89, 131, 129);
     color: white;
+    font-family: 'jura', serif;
+}
+
+.comp-heading {
+    color: rgb(89, 131, 129);
 }
 
 .about-comp {
@@ -373,8 +342,6 @@ h1 {
     padding-bottom: 20px;
 }
 
-
-
 /* ----------------------------------------------------------------------------Footer */
 
 footer div {
@@ -418,7 +385,9 @@ footer a {
     margin-top: 15px;
 }
 
-
+.footer-cont {
+    background-color: rgb(32, 42, 37);
+}
 
 /* ----------------------------------------------------------------------------Map */
 
@@ -431,7 +400,6 @@ footer a {
     margin: 0 auto;
     padding: 20px 0px;
 }
-
 
 /* ----------------------------------------------------------------------------Contact Form */
 
@@ -456,9 +424,7 @@ footer a {
     margin: 0 auto;
 }
 
-
 /* ----------------------------------------------------------------------------Media Queries */
-
 
 @media (max-width: 576px) {
     
