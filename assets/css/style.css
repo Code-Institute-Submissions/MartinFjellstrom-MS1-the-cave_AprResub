@@ -91,7 +91,7 @@ h1, h2, h3, h6 {
     margin: 0;
 }
 
-.main-top-pic {
+.main-top-pic-container {
     position: relative;
     text-align: center;
 }
@@ -103,6 +103,14 @@ h1, h2, h3, h6 {
     color: #ffffff;
     font-size: 6rem;
     font-family: "black ops one", serif;
+}
+
+.course-top-pic {
+    object-position: 50% 40%;
+}
+
+.comp-top-pic {
+    object-position: 50% 25%;
 }
 
 /* ----------------------------------------------------------------------------About Section Landing Page */
