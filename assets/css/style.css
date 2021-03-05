@@ -21,6 +21,11 @@
     text-align: left;
 }
 
+.red-line {
+    border: 1px solid rgb(254,87,57);
+    opacity: 1;
+}
+
 /* --------------------------------------------------------General */
 
 .container-fluid {
@@ -35,6 +40,8 @@ h1 {
     Padding-top: 30px;
     padding-bottom: 20px;
 }
+
+
 
 /* --------------------------------------------------------Font styles */
 
@@ -159,7 +166,8 @@ h1, h2, h3, h6 {
 .card-trainer {
     margin: auto;
     border-radius: 5px;
-    min-height: 370px;
+    min-height: 80%;
+    width: 80%;
 }
 
 .trainer-cont h2,
@@ -239,6 +247,11 @@ font-family: 'jura', serif;
     font-family: "jura", serif;
 }
 
+.courses-page p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .course-text {
     width: 70%;
     margin: 0 auto;
@@ -261,9 +274,8 @@ font-family: 'jura', serif;
     max-height: 400px;
 }
 
-.course-line {
-    border: 1px solid rgb(254,87,57);
-    opacity: 1;
+.top-rope-pic {
+    object-position: 50% 65%;
 }
 
 .course-btn {
@@ -282,7 +294,7 @@ font-family: 'jura', serif;
     border: 0px !important;
 }
 
-.course-info {
+.shaded-box-continer {
     margin: 0 auto;
     padding: 20px;
     background-color: rgba(0,0,0,.15)
@@ -310,6 +322,11 @@ font-family: 'jura', serif;
     padding: 20px;
     margin-bottom: 30px;
     
+}
+
+.info-comp a {
+    text-decoration: none;
+    color: rgb(254,87,57);
 }
 
 .comp-dates {
@@ -368,13 +385,14 @@ font-family: 'jura', serif;
 
 .form-container {
     background-color: rgb(254,87,57);
-    width: 60%;
+    width: 70%;
     padding: 20px;
     margin: auto;
     border-radius: 8px;
+    border: 2px ridge white;
 }
 
-.contact {
+.contact-form-container {
     text-align: center;
 }
 
@@ -402,7 +420,7 @@ font-family: 'jura', serif;
 
 /* ----------------------------------------------------------------------------Map */
 
-.map-col {
+.map-container {
     min-height: 500px;
     margin: auto auto;
 }
@@ -473,22 +491,6 @@ footer a {
     width: 100%;
     }
 
-   .course-text {
-    width: 85%;
-    }
-
-    .about-comp {
-    width: 85%;
-    }
-
-    .comp-dates {
-    width: 85%;
-    }
-
-    .prev-comp {
-    width: 85%;
-    } 
-    
     .footer-cont {
     padding-bottom: 20px;
     }
@@ -499,6 +501,11 @@ footer a {
 
     .welcome-text {
         line-height: 1;
+    }
+
+    .landing-red-line {
+        width: 85%;
+        margin: auto;
     }
 }
 
@@ -534,5 +541,23 @@ footer a {
         width: 80%;
     }
 
-}
+    .form-container {
+        width: 80%;
+    }
 
+    .course-text {
+    width: 85%;
+    }
+
+    .about-comp {
+    width: 85%;
+    }
+
+    .comp-dates {
+    width: 85%;
+    }
+
+    .prev-comp {
+    width: 85%;
+    }
+}
