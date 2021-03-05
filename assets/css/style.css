@@ -22,6 +22,7 @@
 }
 
 .red-line {
+    color: rgb(254,87,57);
     border: 1px solid rgb(254,87,57);
     opacity: 1;
 }
@@ -47,13 +48,6 @@ h1 {
 
 h1, h2, h3, h6 {
     font-family: "black ops one", serif;
-}
-
-/* --------------------------------------------------------Logo */
-
-.logo-img {
-    height: 250px;
-    width: 250px;
 }
 
 /* ----------------------------------------------------------------------------Navigation Bar */
@@ -247,14 +241,13 @@ font-family: 'jura', serif;
 }
 
 .courses-page p {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .course-text {
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
-    text-align: center; 
 }
 
 .course-main-text {
@@ -275,6 +268,10 @@ font-family: 'jura', serif;
 
 .top-rope-pic {
     object-position: 50% 65%;
+}
+
+.course-price {
+    font-size: 1.2em;
 }
 
 .course-btn {
@@ -313,7 +310,7 @@ font-family: 'jura', serif;
 
 .about-comp {
     text-align: center;
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -330,7 +327,7 @@ font-family: 'jura', serif;
 
 .comp-dates {
     text-align: center;
-    width: 70%;
+    width: 80%;
     margin: auto auto;
 }
 
@@ -398,13 +395,6 @@ font-family: 'jura', serif;
 .contact h2 {
     padding-top: 20px;
     padding-bottom: 30px;
-}
-
-.contact-form > input, 
-.contact-form > button, 
-.contact-form > textarea {
-    display: block;
-    margin: 0 auto;
 }
 
 .contact-btn {
