@@ -41,41 +41,43 @@
             </div>
         </div>
     </nav>
-
-    <section>
         <div class="container-fluid contact-page">
             <div class="row">
                 <div class="col-lg-6 contact-form-container">
-                    <div class="boxed-heading-container">
-                        <br><br>
-                        <div class="boxed-heading">
-                            <h1 class="contact-heading">Contact Us</h1>
+                    <header>
+                        <div class="boxed-heading-container">
+                            <br><br>
+                            <div class="boxed-heading">
+                                <h1 class="contact-heading">Contact Us</h1>
+                            </div>
                         </div>
-                    </div>
-                    <div class="form-container">
-                        <form action="#contact-modal" method="GET" class="contact-form">
-                            <div class="mb-3">
-                                <input type="text" id="fullname" name="name" placeholder="Full Name"
-                                    class="form-control" required>
-                            </div>
-                            <div class="mb-3">
-                                <input type="email" id="emailaddress" name="email" placeholder="Email"
-                                    class="form-control" required>
-                            </div>
-                            <div class="mb-3">
-                                <input type="tel" id="telephone" name="telephone" placeholder="Phone number"
-                                    class="form-control" required>
-                            </div>
-                            <div class="mb-3">
-                                <textarea name="contant" id="" cols="30" rows="5" class="form-control"></textarea>
-                            </div>
-                            <!-- Button trigger modal -->
-                            <button type="button" class="btn contact-btn" data-bs-toggle="modal"
-                                data-bs-target="#contactModal">
-                                Send!
-                            </button>
-                        </form>
-                    </div>
+                    </header>
+                    <section>
+                        <div class="form-container">
+                            <form action="#contact-modal" method="GET" class="contact-form">
+                                <div class="mb-3">
+                                    <input type="text" id="fullname" name="name" placeholder="Full Name"
+                                        class="form-control" required>
+                                </div>
+                                <div class="mb-3">
+                                    <input type="email" id="emailaddress" name="email" placeholder="Email"
+                                        class="form-control" required>
+                                </div>
+                                <div class="mb-3">
+                                    <input type="tel" id="telephone" name="telephone" placeholder="Phone number"
+                                        class="form-control" required>
+                                </div>
+                                <div class="mb-3">
+                                    <textarea name="contant" id="" cols="30" rows="5" class="form-control"></textarea>
+                                </div>
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn contact-btn" data-bs-toggle="modal"
+                                    data-bs-target="#contactModal">
+                                    Send!
+                                </button>
+                            </form>
+                        </div>
+                    </section>
                     <br><br>
                     <!-- Modal -->
                     <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="messageSent"
@@ -95,19 +97,18 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 map-container">
-                    <div class="map">
-                    <!------------------------------------------- https://developers.google.com/maps/documentation/embed/get-started -->
-                    <iframe class="gym-map" width="80%" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAdFEnP_epB8RWCPgTYkxkpX2JcWSSTrek
+                <section>
+                    <div class="col-lg-6 map-container">
+                        <div class="map">
+                            <!------------------------------------------- https://developers.google.com/maps/documentation/embed/get-started -->
+                            <iframe class="gym-map" width="80%" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAdFEnP_epB8RWCPgTYkxkpX2JcWSSTrek
                         &q=57.691288573661964,11.948914179751798" allowfullscreen>
-                    </iframe>
+                            </iframe>
+                        </div>
                     </div>
-                </div>
-
+                </section>
             </div>
         </div>
-    </section>
-
     <footer>
         <div class="container-fluid footer-cont">
             <div class="row">
