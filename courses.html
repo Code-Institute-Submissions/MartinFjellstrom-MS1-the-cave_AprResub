@@ -134,7 +134,8 @@
                         </div>
                     </div>
                     <div class="shaded-box-continer">
-                        <p>course starts by going through the basics of climbing gear and essential knots. After that we
+                        <p>The course starts by going through the basics of climbing gear and essential knots. After
+                            that we
                             will be doing some
                             lead securing and climbing on two different walls.
                             The
@@ -204,11 +205,11 @@
             <br>
         </div>
         <section>
-            <!-- Button trigger modal -->
+            <!-- Button trigger modal from BOOTSTRAP -->
             <button type="button" class="btn course-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 Sign Up!
             </button>
-            <!-- Modal -->
+            <!-- Modal from BOOTSTRAP -->
             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
                 aria-hidden="true">
                 <div class="modal-dialog">
@@ -218,17 +219,17 @@
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body course-modal-body">
-                            <form>
+                            <form id="course-form">
                                 <div class="mb-3 left">
                                     <label for="name" class="">Name</label>
-                                    <input type="text" class="form-control" id="name">
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="Full Name" required>
                                 </div>
                                 <div class="mb-3 left">
                                     <label for="email" class="">Email Address</label>
-                                    <input type="email" class="form-control" id="email">
+                                    <input type="email" class="form-control" id="email" required>
                                 </div>
                                 <div class="mb-3">
-                                    <select class="form-select" aria-label="Default select example">
+                                    <select class="form-select" aria-label="Default select example" required>
                                         <option selected>Select a course</option>
                                         <option value="1">Top rope 100€</option>
                                         <option value="2">Lead 80€</option>
@@ -236,11 +237,12 @@
                                     </select>
                                 </div>
                                 <div class="mb-3 left">
-                                    <input type="date">
-                                </div>
-                                <div class="sign-up-btn">
+                                    <input type="date" required>
                                 </div>
                             </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="submit" form="course-form" class="btn btn-secondary">Submit</button>
                         </div>
                     </div>
                 </div>

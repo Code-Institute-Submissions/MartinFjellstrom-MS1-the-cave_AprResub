@@ -402,7 +402,7 @@ font-family: 'jura', serif;
     background-color: rgb(89, 131, 129);
 }
 
-.contact-form {
+#contact-form {
     width: 90%;
     margin: 0 auto;
 }
@@ -410,8 +410,7 @@ font-family: 'jura', serif;
 /* ----------------------------------------------------------------------------Map */
 
 .map-container {
-    min-height: 500px;
-    margin: auto auto;
+    margin: auto auto 48px auto;
 }
 
 .gym-map {
@@ -549,4 +548,5 @@ footer a {
     .prev-comp {
     width: 85%;
     }
+
 }
