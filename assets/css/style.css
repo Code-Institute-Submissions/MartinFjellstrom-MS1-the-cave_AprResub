@@ -21,6 +21,12 @@
     text-align: left;
 }
 
+.shaded-box-continer {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(0,0,0,.15)
+}
+
 .red-line {
     color: rgb(254,87,57);
     border: 1px solid rgb(254,87,57);
@@ -33,16 +39,14 @@
     padding: 0;
 }
 
-.row {
-    --bs-gutter-x: 0px;
-}
-
 h1 {
     Padding-top: 30px;
     padding-bottom: 20px;
 }
 
-
+.row {
+    --bs-gutter-x: 0rem;
+}
 
 /* --------------------------------------------------------Font styles */
 
@@ -288,12 +292,6 @@ font-family: 'jura', serif;
 .course-modal-header, 
 .course-modal-footer {
     border: 0px !important;
-}
-
-.shaded-box-continer {
-    margin: 0 auto;
-    padding: 20px;
-    background-color: rgba(0,0,0,.15)
 }
 
 /* ----------------------------------------------------------------------------Competition Page */
