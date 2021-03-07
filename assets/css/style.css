@@ -3,6 +3,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
 
+/* --------------------------------------------------------Browser compatibility */
+
+@-moz-document url-prefix() {
+    .form-select option {
+        font-family: 'jura', serif;
+    }
+
+    .entry-fee-table {
+        margin-top: 10px;
+    }
+}
+
 /* --------------------------------------------------------Reuseable Styles */
 
 .boxed-heading-container {
@@ -153,7 +165,7 @@ h1, h2, h3, h6 {
 /* ----------------------------------------------------------------------------Who We Are Section Landing Page */
 
 .who-we-are {
-    padding: 50px 25px 50px 25px;
+    padding: 50px 0px;
     background-color: rgb(89, 131, 129);
 }
 
@@ -514,7 +526,7 @@ footer a {
         padding-bottom: 10px;
     }
 
-    .price-tables {
+    .price-table-container {
         padding-top: 10px;
         padding-bottom: 10px;
     }
@@ -547,4 +559,10 @@ footer a {
     width: 85%;
     }
 
+}
+
+@media (max-height: 550px) {
+    .welcome-text {
+        font-size: 5rem;
+    }
 }

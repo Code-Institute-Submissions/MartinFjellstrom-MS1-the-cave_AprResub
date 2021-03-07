@@ -276,13 +276,52 @@ Course booking form:
 
 1. On Firefox browser the items in the dropdown options in the course booking form do not show in the correct font (Jura)
 
-2. On Firefox browser the table in the “Entry Fee” card in the “Prices” section of the landing page is centred rather than aligned to the to the top of the card.
+    **Fix:** I wrote a Mozilla specific extension in the css file that targeted the options in the dropdown menu
+
+        @-moz-document url-prefix() {
+        .form-select option {
+        font-family: 'jura', serif;
+        }
+        }
+
+2. On Firefox browser the table in the “Entry Fee” card in the “Prices” section of the landing page is centred rather than aligned to the top of the card.
+
+    **Fix:** I wrote a Mozilla specific extension in the css file that targeted the .entry-fee-table and gave it a top margin.
+
+        @-moz-document url-prefix() {
+        .entry-fee-table {
+        margin-top: 10px;
+        }
+        }
 
 3. On a mobile device (320x480px) the boxed headings (competitions, the team, courses) push the size of screen out more than other content on the page, creating a white gap on the right side of all pages.
 
+    **Fix:** I removed the side paddings on the .who-we-are selector in the css file which pushed the "The Team" boxed heading to the right.
+
+        .who-we-are {
+        padding: 50px 0px;
+        background-color: rgb(89, 131, 129);
+        }
+
+    I took the course boxed heading out of the course-text div which has a specified width that pushed the box to the right
+
+    I took the competition boxed heading out of the about-comp div which has a specified width that pushed the box to the right
+
 4. On a mobile device (320x480px) “The Cave” heading on the landing page is overlapping the navigation bar.
 
+    **Fix:** I wrote a media query for max-height and changed the font size to 5rem so the heading doesn't overlapp the navbar
+
+        @media (max-height: 550px) {
+        .welcome-text {
+        font-size: 5rem;
+        }
+        }
+
 5. On tablet device one one of the collapse buttons on the competitions page is a different height to the others.
+
+    **Fix:** I added some extra space inbetween the text and the icon on the buttons
+
+        Top Rope Competition 02/10/2020 &nbsp;&nbsp;&nbsp;<i class="fas fa-arrow-down"></i>
 
 6. On all devices there is a white gap on the right side of the landing page.
 
@@ -300,12 +339,19 @@ Course booking form:
 ### The project was deployed to GitHub pages using the following steps:
 
 1. Login to Github
+
 2. Locate and select the “MartinFjellstrom/MS1-the-cave” repository.
+
 3. On the top tab, locate and select "Settings".
+
 4. Scroll down to find the "GitHub Pages" section.
+
 5. Under source, select the "Master" branch from the dropdown selection menu.
+
 6. A second dropdown appears next to the branch dropdown. Make sure that "/(root)" is selected.
+
 7. Press the "Save" button and the page will automatically refresh.
+
 8. Scroll back down to the "GitHub Pages" section and find the now published link to the deployed site in the coloured section under the GitHub Pages heading. 
 
 ## Making a local Clone
@@ -370,19 +416,20 @@ All content on the site was written by myself and proof-read by Melissa De Siena
 
 ## Code 
 
-Navigation bar- For the creation of the navigation bar I was inspired by “Bootstrapping Your Next Big Idea With Bootstrap 4 - Components - Core Components - part 1” Code Institute lesson.
+**Navigation bar** - For the creation of the navigation bar I was inspired by “Bootstrapping Your Next Big Idea With Bootstrap 4 - Components - Core Components - part 1” Code Institute lesson.
 
-Bootstrap V.5 Template code from the documentation on Bootstrap 5 was used to implement the responsiveness, navbar, carousel throughout the site.
+[Bootstrap V.5](https://getbootstrap.com/) Template code from the Bootstrap documentation was used 
+to create the navbar, cards, modals, tables, collapse buttons and the carousel.
 
-Google Maps – for map
+[Google Maps](https://developers.google.com/maps/documentation/embed/get-started) – Used for the embedded map on the contact page.
 
 
 # Acknowledgements
 
-A big thank you to my partner for her support
+A big thank you to my partner Melissa for her support throughout this project.
 
-Thanks to my mentor for his help and input on how to improve the site
+Thanks to my mentor for his help and input on how to improve the site.
 
-Thanks to the tutors at Code Institute and Student Care service for all their support.
+Thanks to the tutors at Code Institute and Student Care service for their support.
 
 
