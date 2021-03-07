@@ -113,7 +113,7 @@ h1, h2, h3, h6 {
     text-align: center;
 }
 
-.welcome-text {
+.hero-text {
     position: absolute;
     bottom: 10%;
     right: 5%;
@@ -497,7 +497,7 @@ footer a {
         font-size: 14px;
     }
 
-    .welcome-text {
+    .hero-text {
         line-height: 1;
     }
 
@@ -562,7 +562,7 @@ footer a {
 }
 
 @media (max-height: 550px) {
-    .welcome-text {
+    .hero-text {
         font-size: 5rem;
     }
 }

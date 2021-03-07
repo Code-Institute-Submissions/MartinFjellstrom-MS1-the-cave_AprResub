@@ -5,16 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="Description" content="Enter your description here" />
+    <meta name="Description" content="Get in touch with The Cave climbing gym" />
+    <!-- favicon-->
     <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png" />
+        <!-- Bootstrap library -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <!-- Font Awesome link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>The Cave Climbing Gym</title>
 </head>
 
 <body>
+    <!-- Navbar from Bootstrap -->
     <nav class="navbar navbar-expand-sm navbar-spec">
         <div class="container-fluid">
             <button class="navbar-toggler ms-auto custom-toggler" type="button" data-bs-toggle="collapse"
@@ -37,13 +41,13 @@
                         <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
                     </li>
                 </ul>
-
             </div>
         </div>
     </nav>
     <div class="container-fluid contact-page">
         <div class="row">
             <div class="col-lg-6 contact-form-container">
+                <!-- Contact Us Boxed Heading -->
                 <header>
                     <div class="boxed-heading-container">
                         <br><br>
@@ -52,6 +56,7 @@
                         </div>
                     </div>
                 </header>
+                <!-- Contact form -->
                 <section>
                     <div class="form-container">
                         <form action="#contact-modal" method="GET" id="contact-form">
@@ -68,9 +73,9 @@
                                     class="form-control" required>
                             </div>
                             <div class="mb-3">
-                                <textarea name="contant" id="" cols="30" rows="5" class="form-control"></textarea>
+                                <textarea name="contant" id="contact-textarea" cols="30" rows="5" class="form-control" required></textarea>
                             </div>
-                            <!-- Button trigger modal -->
+                            <!-- Button trigger modal from Bootstrap -->
                             <button type="submit" class="btn contact-btn" data-bs-toggle="modal"
                                 data-bs-target="#contactModal" form="contact-form">
                                 Send!
@@ -79,15 +84,13 @@
                     </div>
                 </section>
                 <br><br>
-                <!-- Modal -->
+                <!-- Modal from Bootstrap -->
                 <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="messageSent"
                     aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
                                 <h5 class="modal-title" id="messageSent">Thank you for your message!</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Close"></button>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -97,49 +100,47 @@
                 </div>
             </div>
             <div class="col-lg-6 map-container">
-                <!-- https://developers.google.com/maps/documentation/embed/get-started -->
+                <!-- Map from Google Maps -->
                 <iframe class="gym-map" width="80%" height="545" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAdFEnP_epB8RWCPgTYkxkpX2JcWSSTrek
                         &q=57.691288573661964,11.948914179751798" allowfullscreen>
                 </iframe>
             </div>
         </div>
     </div>
+    <!-- Footer -->
     <footer>
-        <div class="container-fluid footer-cont">
-            <div class="row">
-                <div class="col-sm-4 address-footer">
-                    <p>Rosengatan 13</p>
-                    <p>413 10 Gothenburg</p>
-                    <p>050-777-666</p>
-                    <p>Thecave@gmail.com</p>
-                </div>
-                <div class="col-sm-4 opening-hours-footer">
-                    <h4>Opening Hours</h4>
-                    <p>Mon-Fri: 9.00-20.00</p>
-                    <p>Sat-Sun: 10.00-20-00</p>
-                </div>
-                <div class="col-sm-4 social-links-footer">
-                    <a href="https://www.facebook.com/" target="_blank">
-                        <i class="fab fa-facebook-square facebook"></i>
-                    </a>
-                    <a href="https://twitter.com/" target="_blank">
-                        <i class="fab fa-twitter-square twitter"></i>
-                    </a>
-                    <a href="https://www.instagram.com/" target="_blank">
-                        <i class="fab fa-instagram-square instagram"></i>
-                    </a>
-                </div>
+        <div class="container-fluid row footer-cont">
+            <!-- Location and contact information -->
+            <div class="col-sm-4 address-footer">
+                <p>Rosengatan 13</p>
+                <p>413 10 Gothenburg</p>
+                <p>050-777-666</p>
+                <p>Thecave@gmail.com</p>
+            </div>
+            <!-- Opening Hours -->
+            <div class="col-sm-4 opening-hours-footer">
+                <h4>Opening Hours</h4>
+                <p>Mon-Fri: 9.00-20.00</p>
+                <p>Sat-Sun: 10.00-20-00</p>
+            </div>
+            <!-- Social links -->
+            <div class="col-sm-4 social-links-footer">
+                <a href="https://www.facebook.com/" target="_blank">
+                    <i class="fab fa-facebook-square facebook"></i>
+                </a>
+                <a href="https://twitter.com/" target="_blank">
+                    <i class="fab fa-twitter-square twitter"></i>
+                </a>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <i class="fab fa-instagram-square instagram"></i>
+                </a>
             </div>
         </div>
     </footer>
 
-    <script src="https://kit.fontawesome.com/12d272a545.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
-        integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
-        crossorigin="anonymous"></script>
+     <!-- Bootstrap JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
         integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
         crossorigin="anonymous"></script>
 </body>
-
 </html>

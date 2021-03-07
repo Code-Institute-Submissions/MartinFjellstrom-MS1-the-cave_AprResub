@@ -7,15 +7,19 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="Description"
         content="Great climbing gym in Gothenburg with lots of bouldering, top rope and lead climbing. Everyone is welcome, beginners as well as experienced climbers" />
+        <!-- favicon-->
     <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png" />
+        <!-- Bootstrap library -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <!-- Font Awesome link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>The Cave Climbing Gym</title>
 </head>
 
 <body>
+    <!-- Navbar from Bootstrap -->
     <nav class="navbar navbar-expand-sm navbar-spec">
         <div class="container-fluid">
             <button class="navbar-toggler ms-auto custom-toggler" type="button" data-bs-toggle="collapse"
@@ -41,15 +45,17 @@
             </div>
         </div>
     </nav>
+    <!-- Hero Image -->
     <header>
         <div class="main-top-pic-container">
             <img src="assets/images/landing-top.jpg" alt="PictureOfGym" class="top-pic">
-            <div class="welcome-text">THE CAVE</div>
+            <div class="hero-text">THE CAVE</div>
         </div>
     </header>
-
+    <!-- Welcome to the cave -->
     <section>
         <div class="container-fluid">
+            <!-- Landing Page Welcome and About Us Text -->
             <div class="main-text">
                 <br>
                 <h1>Welcome to The Cave!</h1>
@@ -72,6 +78,7 @@
                     courses and host competitions. Have a look through our site to find out more!
                 </p>
             </div>
+            <!-- Carousel from Bootstrap -->
             <div class="carousel-cont">
                 <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
                     <div class="carousel-inner">
@@ -107,19 +114,21 @@
             </div>
         </div>
     </section>
-
+    <!-- The Team -->
     <section>
         <div class="container-fluid who-we-are">
+            <!-- The Team Boxed Heading -->
             <div class="boxed-heading-container">
                 <div class="boxed-heading">
                     <h1 class="team-heading">THE TEAM</h1>
                 </div>
             </div>
+            <!-- Cards from Bootstrap with Instructor information -->
             <div class="row trainers">
                 <div class="col-lg-4 trainer-cont">
                     <div class="card card-trainer">
                         <img src="assets/images/man-male-portrait-beard-preview.jpg" class="card-img-top trainer-pic"
-                            alt="PictureOfTrainer">
+                            alt="PictureOfInstructor">
                         <div class="card-body">
                             <h2>Max Power</h2>
                             <p class="card-text">Max is an experienced climber who has participated in many competitions
@@ -132,7 +141,7 @@
                 <div class="col-lg-4 trainer-cont">
                     <div class="card card-trainer">
                         <img src="assets/images/people-beautiful-happy-long-hair.jpg" class="card-img-top trainer-pic"
-                            alt="PictureOfTrainer">
+                            alt="PictureOfInstructor">
                         <div class="card-body">
                             <h2>Katie Tower</h2>
                             <p class="card-text">Katie is one of Sweden's most prominent climbers. She studied in New
@@ -143,7 +152,7 @@
                 </div>
                 <div class="col-lg-4 trainer-cont">
                     <div class="card card-trainer">
-                        <img src="assets/images/people-man-famous-portrait-preview.jpg" alt="PictureOfTrainer"
+                        <img src="assets/images/people-man-famous-portrait-preview.jpg" alt="PictureOfInstructor"
                             class="card-img-top trainer-pic">
                         <div class="card-body">
                             <h2>Patrick Jones</h2>
@@ -161,15 +170,17 @@
             </div>
         </div>
     </section>
-
+    <!-- Prices -->
     <section>
         <div class="container-fluid prices-div">
+            <!-- Prices Boxed Heading -->
             <div class="boxed-heading-container">
                 <div class="boxed-heading">
                     <h1 class="price-heading">PRICES</h1>
                 </div>
             </div>
             <div class="row">
+                <!-- Cards and Tables from Bootstrap with price information -->
                 <div class="col-lg-4 price-table-container">
                     <div class="card card-price entry-fee">
                         <h2 class="card-title">Entry Fee</h2>
@@ -264,20 +275,23 @@
             </div>
         </div>
     </section>
-
+    <!-- Footer -->
     <footer>
         <div class="container-fluid row footer-cont">
+            <!-- Location and contact information -->
             <div class="col-sm-4 address-footer">
                 <p>Rosengatan 13</p>
                 <p>413 10 Gothenburg</p>
                 <p>050-777-666</p>
                 <p>Thecave@gmail.com</p>
             </div>
+            <!-- Opening Hours -->
             <div class="col-sm-4 opening-hours-footer">
                 <h4>Opening Hours</h4>
                 <p>Mon-Fri: 9.00-20.00</p>
                 <p>Sat-Sun: 10.00-20-00</p>
             </div>
+            <!-- Social links -->
             <div class="col-sm-4 social-links-footer">
                 <a href="https://www.facebook.com/" target="_blank">
                     <i class="fab fa-facebook-square facebook"></i>
@@ -292,12 +306,9 @@
         </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
-        integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
-        crossorigin="anonymous"></script>
+    <!-- Bootstrap JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
         integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
         crossorigin="anonymous"></script>
 </body>
-
 </html>
