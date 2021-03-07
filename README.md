@@ -40,12 +40,18 @@ This is the site for a climbing gym based in Gothenburg, Sweden. It is designed 
 ### Colour scheme
 
 #### The main colours used throughout the site are:
-      
-Tomato rgb(254,87,57)        (IMG)
 
-Darkslaegrey rgb(32, 42, 37)    (IMG)
+Tomato rgb(254,87,57)      
 
-Slategrey rgb(89, 131, 129)     (IMG)
+![](readme/images/tomato-colour.png)        
+
+Darkslaegrey rgb(32, 42, 37)    
+
+![](readme/images/darkslategrey-colour.png)
+
+Slategrey rgb(89, 131, 129) 
+
+![](readme/images/slategrey-colour.png)
       
 ### Fonts
 
@@ -54,7 +60,7 @@ as a fallback font should the font not be supported by the user’s browser. The
 
 ### Imagery
 
-There are hero images on most of the site pages in order to grab user’s attention and give a sporty feel to the site overall. On the home page the image carousel is there to give users an idea of what the gym looks like. Pictures are included throughout to give a modern and colourful vibe. 
+There are hero images on most of the site pages in order to grab user’s attention and give a sporty feel to the site overall. On the home page the image carousel is there to give users an idea of what the gym looks like. There are also pictures of the climbing instructors in the "The Team" section on the home page to give it a more personal touch. Pictures are also included throughout the Courses page to give it a modern and colourful vibe.
 
 ## Wireframes
 
@@ -90,7 +96,7 @@ There are hero images on most of the site pages in order to grab user’s attent
 
 ## Features left to implement
 
-* Sign up button and form on competitions page to allow users to easily sign up to competitions
+* Sign up button and form on competitions page to allow users to easily sign up to competitions.
 
 # Technologies Used 
 
@@ -114,6 +120,7 @@ There are hero images on most of the site pages in order to grab user’s attent
 * [PicPick](https://picpick.app/) – used to screen capture pages for use in the README file.
 * [Eye Dropper](https://chrome.google.com/webstore/detail/eye-dropper/hmdcmlfkchdmnmnmheododdhjedfccka) – used to get colour from picture.
 * [Free Logo Design](https://www.freelogodesign.org/) - used to make a logo for the favicon.
+* [Paint](https://en.wikipedia.org/wiki/Microsoft_Paint) - used to make colour samples in the README file.
 
 # Testing
 
@@ -269,9 +276,9 @@ Course booking form:
 
 ## Bugs
 
-1. On Firefox browser the items in the dropdown options in the course booking form do not show in the correct font (Jura)
+1. On Firefox browser the items in the dropdown options in the course booking form do not show in the correct font (Jura).
 
-    **Fix:** I wrote a Mozilla specific extension in the css file that targeted the options in the dropdown menu
+    **Attempted Fix:** I wrote a Mozilla specific extension in the css file to target the options in the dropdown menu.
 
         @-moz-document url-prefix() {
         .form-select option {
@@ -279,13 +286,15 @@ Course booking form:
         }
         }
 
+    However this did not work and after researching it a bit more it seems that FireFox does not support any font family changes to dropdown menus in CSS.
+
 2. On Firefox browser the table in the “Entry Fee” card in the “Prices” section of the landing page is centred rather than aligned to the top of the card.
 
-    **Fix:** I wrote a Mozilla specific extension in the css file that targeted the .entry-fee-table and gave it a top margin.
+    **Fix:** I wrote a Mozilla specific extension in the css file that targeted the .prices-div table and removed the forced height.
 
         @-moz-document url-prefix() {
-        .entry-fee-table {
-        margin-top: 10px;
+        .prices-div table {
+        height: 0 !important;
         }
         }
 
@@ -298,13 +307,13 @@ Course booking form:
         background-color: rgb(89, 131, 129);
         }
 
-    I took the course boxed heading out of the course-text div which has a specified width that pushed the box to the right
+    I took the course boxed heading out of the course-text div which has a specified width that pushed the box to the right.
 
-    I took the competition boxed heading out of the about-comp div which has a specified width that pushed the box to the right
+    I took the competition boxed heading out of the about-comp div which has a specified width that pushed the box to the right.
 
 4. On a mobile device (320x480px) “The Cave” heading on the landing page is overlapping the navigation bar.
 
-    **Fix:** I wrote a media query for max-height and changed the font size to 5rem so the heading doesn't overlapp the navbar
+    **Fix:** I wrote a media query for max-height and changed the font size to 5rem so the heading doesn't overlap the navbar.
 
         @media (max-height: 550px) {
         .welcome-text {
@@ -314,7 +323,7 @@ Course booking form:
 
 5. On tablet device one one of the collapse buttons on the competitions page is a different height to the others.
 
-    **Fix:** I added some extra space inbetween the text and the icon on the buttons
+    **Fix:** I added some extra space inbetween the text and the icon on the buttons.
 
         Top Rope Competition 02/10/2020 &nbsp;&nbsp;&nbsp;<i class="fas fa-arrow-down"></i>
 
@@ -333,7 +342,7 @@ Course booking form:
 
 ### The project was deployed to GitHub pages using the following steps:
 
-1. Login to Github
+1. Login to Github.
 
 2. Locate and select the “MartinFjellstrom/MS1-the-cave” repository.
 
@@ -351,11 +360,11 @@ Course booking form:
 
 ## Making a local Clone
 
-1. Log in to GitHub and locate the “MartinFjellstrom/MS1-the-cave” repository
+1. Log in to GitHub and locate the “MartinFjellstrom/MS1-the-cave” repository.
 2. Click on the “Code” dropdown next to the green “GitPod” button.
-3. Under Clone, select the "HTTPS" option
-4. Copy the URL shown
-5. Open your local IDE and then open the terminal
+3. Under Clone, select the "HTTPS" option.
+4. Copy the URL shown.
+5. Open your local IDE and then open the terminal.
 6. Change the current working directory to the location where you want the cloned directory.
 7. Type "git clone" in the terminal and then paste the URL you previously copied.
 

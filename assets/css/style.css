@@ -7,13 +7,8 @@
 
 @-moz-document url-prefix() {
 
-    .dropdown-option {
-        -moz-appearance: none;
-        font-family: 'jura', serif;
-    }
-
-    .entry-fee-table {
-        margin-top: 10px;
+    .prices-div table {
+        height: 0 !important;
     }
 }
 
