@@ -193,6 +193,7 @@ font-family: 'jura', serif;
     padding: 15px;
     border-radius: 50%;
     margin: 0 auto;
+    object-fit: cover;
     transition-duration: 350ms;
 }
 

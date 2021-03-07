@@ -5,7 +5,28 @@ Link to [The Cave Climbing Gym](https://martinfjellstrom.github.io/MS1-the-cave/
 
 This is the site for a climbing gym based in Gothenburg, Sweden. It is designed to give customers a place to find information about the gym, its facilities and services, as well as its location and contact details. 
 
-(mock up on different devices)
+![](readme/images/mockup.png)
+
+# Table of Contents
+
+- [UX](#ux)
+    - [User Stories](#user-stories)
+    - [Design](#design)
+    - [Wireframes](#wireframes)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Testing](#testing)
+    - [Code Validation](#code-validation)
+    - [Testing User Stories](#testing-user-stories)
+    - [Compatibility Testing](#compatibility-testing)
+    - [Performance Testing](#performance-testing)
+    - [Bugs](#bugs)
+- [Deployment](#deployment)
+- [Credits](#credits)
+    - [Media](#media)
+    - [Code](#code)
+- [Acknowledgements](#acknowledgements)
+
 
 # UX
 
@@ -64,7 +85,9 @@ There are hero images on most of the site pages in order to grab user’s attent
 
 ## Wireframes
 
-[Wireframes PDF](assets/Readme/MS1-wireframes.pdf)
+[Wireframes PDF](readme/images/ms1-wireframes.pdf)
+
+Note: The final product looks very different from the original wireframes since my ideas for the project changed with time.
 
 # Features
 
@@ -116,7 +139,7 @@ There are hero images on most of the site pages in order to grab user’s attent
 * [Balsamiq](https://balsamiq.com/) – used to create the mobile and desktop wireframes.
 * [W3 Jigsaw](https://jigsaw.w3.org/css-validator/) – used to validate the CSS code.
 * [W3C validator](https://validator.w3.org/) – used to validate the HTML code.
-* [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) – used to debug and test code.
+* [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) – used to debug and test code. Also used for performance testing with lighthouse.
 * [PicPick](https://picpick.app/) – used to screen capture pages for use in the README file.
 * [Eye Dropper](https://chrome.google.com/webstore/detail/eye-dropper/hmdcmlfkchdmnmnmheododdhjedfccka) – used to get colour from picture.
 * [Free Logo Design](https://www.freelogodesign.org/) - used to make a logo for the favicon.
@@ -273,6 +296,24 @@ Course booking form:
 * **Tablet** 768x1024px
 
 * **Mobile** 320x480px
+
+## Performance Testing
+
+### I tested the site with lighthouse in Chrome Devtools and got this result:
+
+![](readme/images/lighthouse-before.jpg)
+
+### Then I applied the following changes to improve the result:
+
+* Added an aria-labels to external links and input elements.
+
+* Added <code>rel="noopener"</code> to my external links.
+
+* Added <code>object-fit: cover;</code> to the styling of the instructor pictures to correct the aspect ratio.
+
+### The final result: 
+
+![](readme/images/lighthouse-after.jpg)
 
 ## Bugs
 
