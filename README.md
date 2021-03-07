@@ -66,7 +66,7 @@ Tomato rgb(254,87,57)
 
 ![](readme/images/tomato-colour.png)        
 
-Darkslaegrey rgb(32, 42, 37)    
+Darkslategrey rgb(32, 42, 37)    
 
 ![](readme/images/darkslategrey-colour.png)
 
@@ -246,7 +246,7 @@ Course booking form:
 
 #### To find information about upcoming events and climbing competitions at the gym.
 
-* Users can access the “Competitions” link in the navigation on all pages
+* Users can access the “Competitions” link in the navigation on all pages.
       
 * On the competitions page there is detailed information regarding climbing competitions. This includes dates for upcoming competitions.
        
@@ -364,7 +364,7 @@ Course booking form:
 
 5. On tablet device one one of the collapse buttons on the competitions page is a different height to the others.
 
-    **Fix:** I added some extra space inbetween the text and the icon on the buttons.
+    **Fix:** I added some extra space in between the text and the icon on the buttons.
 
         Top Rope Competition 02/10/2020 &nbsp;&nbsp;&nbsp;<i class="fas fa-arrow-down"></i>
 
