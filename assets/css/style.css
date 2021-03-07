@@ -1,12 +1,14 @@
-/* --------------------------------------------------------Imported Fonts */
+/* ----------------------------------------------------------------------------Imported Fonts */
 
 @import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
 
-/* --------------------------------------------------------Browser compatibility */
+/* ----------------------------------------------------------------------------Browser compatibility */
 
 @-moz-document url-prefix() {
-    .form-select option {
+
+    .dropdown-option {
+        -moz-appearance: none;
         font-family: 'jura', serif;
     }
 
@@ -15,7 +17,7 @@
     }
 }
 
-/* --------------------------------------------------------Reuseable Styles */
+/* ----------------------------------------------------------------------------Reuseable Styles */
 
 .boxed-heading-container {
     padding-bottom: 50px;
@@ -45,7 +47,7 @@
     opacity: 1;
 }
 
-/* --------------------------------------------------------General */
+/* ----------------------------------------------------------------------------General */
 
 .container-fluid {
     padding: 0;
@@ -60,7 +62,7 @@ h1 {
     --bs-gutter-x: 0rem;
 }
 
-/* --------------------------------------------------------Font styles */
+/* ----------------------------------------------------------------------------Font styles */
 
 h1, h2, h3, h6 {
     font-family: "black ops one", serif;

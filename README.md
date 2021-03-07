@@ -56,17 +56,15 @@ as a fallback font should the font not be supported by the user’s browser. The
 
 There are hero images on most of the site pages in order to grab user’s attention and give a sporty feel to the site overall. On the home page the image carousel is there to give users an idea of what the gym looks like. Pictures are included throughout to give a modern and colourful vibe. 
 
-
 ## Wireframes
 
 [Wireframes PDF](assets/Readme/MS1-wireframes.pdf)
-
 
 # Features
 
 ## Existing Features
 
-* **Responsiveness on all device sizes** – allows users to access the site from any device
+* **Responsiveness on all device sizes** – allows users to access the site from any device.
 
 * **Sign up button on courses page** – opens a modal with the booking form to allow users to book a course.
 
@@ -78,9 +76,9 @@ There are hero images on most of the site pages in order to grab user’s attent
 
 * **Social Media links** – allows users to further engage with the community and  follow all current events as well as review the gym. 
 
-* **Navigation bar throughout** – allows users to navigate easily to all pages
+* **Navigation bar throughout** – allows users to navigate easily to all pages.
 
-* **Image carousel** – shows the user pictures of the gym and what it looks like
+* **Image carousel** – shows the user pictures of the gym and what it looks like.
 
 * **Map** – allows users to easily find the location of the gym.
 
@@ -89,7 +87,6 @@ There are hero images on most of the site pages in order to grab user’s attent
 * **Collapse buttons on competitions page** – allows users to toggle view of previous competition results.
 
 * **Hamburger menu in mobile version** – allows users to easily access the navigation links in a more compact, user friendly way.
-
 
 ## Features left to implement
 
@@ -104,21 +101,19 @@ There are hero images on most of the site pages in order to grab user’s attent
 
 ## Frameworks, Libraries & Programs Used
 
-* [Bootstrap 5](https://getbootstrap.com/docs/5.0/getting-started/download/) – used to help the responsiveness, layout and styling of the website as well as for the creation of modals, image carousel navigation bar
-* [Google fonts](https://fonts.google.com/) – used to import fonts into the style.css file
-* [Font Awesome](https://fontawesome.com/) – used to import icons for the social media links, hamburger menu and previous competition buttons
+* [Bootstrap 5](https://getbootstrap.com/docs/5.0/getting-started/download/) – used to help the responsiveness, layout and styling of the website as well as for the creation of modals, image carousel navigation bar.
+* [Google fonts](https://fonts.google.com/) – used to import fonts into the style.css file.
+* [Font Awesome](https://fontawesome.com/) – used to import icons for the social media links, hamburger menu and previous competition buttons.
 * [GitHub](https://github.com/) – used to store the projects code after being pushed from Git.
 * [GitPod](https://gitpod.io/) – used to edit the projects code before committing it to Git.
-* [Git](https://git-scm.com/) – used for version control of the code
-* [Balsamiq](https://balsamiq.com/) – used to create the mobile and desktop wireframes
-* [W3 Jigsaw](https://jigsaw.w3.org/css-validator/) – used to validate the CSS code
-* [W3C validator](https://validator.w3.org/) – used to validate the HTML code
-* [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) – used to debug and test code
-* [PicPick](https://picpick.app/) – used to screen capture pages for use in the README file
-* [Eye Dropper](https://chrome.google.com/webstore/detail/eye-dropper/hmdcmlfkchdmnmnmheododdhjedfccka) – Used to get colour from picture 
-
-
-
+* [Git](https://git-scm.com/) – used for version control of the code.
+* [Balsamiq](https://balsamiq.com/) – used to create the mobile and desktop wireframes.
+* [W3 Jigsaw](https://jigsaw.w3.org/css-validator/) – used to validate the CSS code.
+* [W3C validator](https://validator.w3.org/) – used to validate the HTML code.
+* [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) – used to debug and test code.
+* [PicPick](https://picpick.app/) – used to screen capture pages for use in the README file.
+* [Eye Dropper](https://chrome.google.com/webstore/detail/eye-dropper/hmdcmlfkchdmnmnmheododdhjedfccka) – used to get colour from picture.
+* [Free Logo Design](https://www.freelogodesign.org/) - used to make a logo for the favicon.
 
 # Testing
 
