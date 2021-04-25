@@ -424,6 +424,8 @@ font-family: 'jura', serif;
 .gym-map {
     display: block;
     margin: auto auto;
+    width: 80%;
+    height: 545px;
 }
 
 /* ----------------------------------------------------------------------------Footer */

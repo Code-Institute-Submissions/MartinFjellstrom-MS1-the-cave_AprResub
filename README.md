@@ -152,7 +152,17 @@ For testing W3C Markup Validation Service was used to validate the HTML code and
 
 ### **HTML**
 
-There were no errors found in the HTML code
+![Courses page errors](readme/images/courses_errors.png)        
+
+Fixes: Added hidden attribute to the first option element of the select element.
+
+![Competition page errors](readme/images/competition_errors.png)
+
+Fixes: Changed the target of the aria-controls on the collapse buttons.
+
+![Contact page errors](readme/images/contact_errors.png)
+
+Fixes: Removed frameborder attribute, moved the height and width attribute to css and removed the new line in the middle of the src attribute on the map.
 
 [HTML validator results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmartinfjellstrom.github.io%2FMS1-the-cave%2F)
 
