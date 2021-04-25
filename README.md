@@ -164,7 +164,10 @@ Competition page fixes: Changed the target of the aria-controls on the collapse 
 
 Contact page fixes: Removed frameborder attribute, moved the height and width attribute to css and removed the new line in the middle of the src attribute on the map. Moved the h1 elemet inside the section element.
 
-[HTML validator results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmartinfjellstrom.github.io%2FMS1-the-cave%2F)
+[Index page HTML validator results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmartinfjellstrom.github.io%2FMS1-the-cave%2Findex.html)
+[Courses page HTML validator results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmartinfjellstrom.github.io%2FMS1-the-cave%2Fcourses.html)
+[Competition page HTML validator results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmartinfjellstrom.github.io%2FMS1-the-cave%2Fcompetition.html)
+[Contact page HTML validator results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmartinfjellstrom.github.io%2FMS1-the-cave%2Fcontact.html)
 
 ### **CSS**
 
